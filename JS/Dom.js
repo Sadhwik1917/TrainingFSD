@@ -81,13 +81,11 @@
 //     document.body.style.backgroundColor = "tomato";
 // })
 
-let inp = document.querySelector("#inp");
-inp.addEventListener("keydown", (e)=>{
-    console.log("Key Down");
+// let inp = document.querySelector("#inp");
+// inp.addEventListener("keydown", (e)=>{
+//     console.log("Key Down");
+// })
 
-})
-
-inp.addEventListener("keyup", (e)=>{
-    console.log("Key Up");
-
-})
+// inp.addEventListener("keyup", (e)=>{
+//     console.log("Key Up");
+// })
