@@ -62,3 +62,26 @@ function fetchusers(){
 }
 fetchusers();
 
+// let p=new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         resolve("Prmoise successfully completing")
+//     },3000)
+// })
+// async function demo(){
+//     console.log("Start");
+//     let x=await p;
+//     console.log(x);
+//     console.log("End");
+// }
+// demo();
+
+// async function fetchusers() {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/users")
+       // console.log(response);
+//     let data= await response.json();
+//     console.log(data);
+// }
+// fetchusers();
+
+// console.log(window);
+// console.log(document);
