@@ -7,18 +7,44 @@
 </head>
 <body>
     <!-- !assignment -->
-     <div class="mainBlock">
+     <!-- <div class="mainBlock">
         <div class="topBlock">
+            <img src="" alt="">
         </div>
-     </div>
+        <div class="bottomBlock">
+            <h1>Heading</h1>
+            <button>View More</button>
+     </div> -->
 
-
+<!-- 
      <form>
         <input type="text" placeholder="Name" id="uName">
         <input type="email" placeholder="Email" id="uEmail">
         <input type="password" placeholder="Password" id="uPassword">
         <button type="submit">Submit</button>
+     </form> -->
+
+     <form>
+        <div class="formgroup">
+            <label for="uName">Username: </label>
+            <input type="text" id="uName" placeholder="Enter your Username">
+        </div>
+
+        <div class="formgroup">
+            <label for="uPassword">Password: </label>
+            <input type="password" id="uPassword" placeholder="Enter your Password">
+        </div>
+        
+        <div class="formgroup">
+            <label for="uGender">Gender: </label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>Others</span>
+        </div>
+
+        <button type="submit"> Submit Form</button>
      </form>
+
     <script src="dom1.js"></script>
 </body>
 </html>
