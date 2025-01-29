@@ -77,8 +77,25 @@
 let form = document.querySelector("form");
 let username = document.getElementById("uName");
 let password = document.getElementById("uPassword");
+let show = document.getElementById("show");
+let check = document.getElementById("check");
 let gen = document.getElementsByName("gender");
 // console.log(gen);
+
+//! Hiding and showing password content
+check.addEventListener("click", event=>{
+    // console.log(event)
+    //console.log(event.target.checked);
+    if(event.target.checked == true){
+        password.setAttribute("type", "text");
+        show.innerText = "Hide Password";
+    }
+    else{
+        password.setAttribute("type", "password");
+        show.innerText = "Show Password";
+    }
+})
+
 
 form.addEventListener("submit", (event)=>{
     event.preventDefault();
